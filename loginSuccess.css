@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  display: flex;
+  width: 100%;
+}
+.main .main-container {
+  width: 250px;
+  height: 100vh;
+}
+
+.main .main-container .task {
+  width: 250px;
+  display: flex;
+
+  color: white;
+  background-color: black;
+
+  column-gap: 20px;
+  border-radius: 0px 100px 100px 0;
+  height: 55px;
+  align-items: center;
+  padding-left: 47px;
+  margin-top: 43px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.location {
+  width: 250px;
+  display: flex;
+  color: black;
+  -moz-column-gap: 20px;
+  column-gap: 20px;
+  border-radius: 0px 100px 100px 0;
+
+  align-items: center;
+  padding-left: 47px;
+  margin-top: 42px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+.logOut {
+  width: 250px;
+  display: flex;
+  padding-left: 47px;
+  align-items: center;
+  column-gap: 20px;
+  border-radius: 0 100px 100px 0;
+  cursor: pointer;
+  margin-top: 70vh;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.modal-header {
+  border-bottom: none;
+  max-width: 100%;
+}
+.modal-header .modal-title {
+  border-bottom: none;
+}
+
+.modal-body .inpput {
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  padding: 10px 50px;
+  width: 100%;
+}
+.modal-body .inpputDec {
+  border: none;
+  border-bottom: 1px solid grey;
+  outline: none;
+  padding: 10px 50px;
+  width: 100%;
+}
+.modal-body .summaryInput {
+  position: absolute;
+  left: 20px;
+  padding-top: 13px;
+  width: 20px;
+}
+
+.close {
+  margin-left: 70%;
+  border: none;
+  background-color: white;
+  font-size: 27px;
+}
+.form-control {
+  border: none;
+  border-bottom: 1px solid grey;
+  border-radius: 0%;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.modal-content {
+  width: 140%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.modal-footer {
+  display: flex;
+  flex-direction: column;
+  border-top: none;
+}
+.btn-btn-primary {
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  opacity: 0px;
+  background-color: black;
+  color: white;
+}
+.btn-btn-secondary {
+  color: black;
+  background-color: white;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  font-style: bold;
+}
+
+.page-content {
+  margin-left: 100px;
+  padding: 20px 50px;
+
+  margin-top: 30px;
+}
+.page-content .subContianer {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.page-content .subContainer .addTask {
+  height: 18px;
+  font-size: 20px;
+  color: #575767;
+  cursor: pointer;
+  font-weight: 700;
+  display: flex;
+}
+.page-content .subContainer .task {
+  display: flex;
+  gap: 16px;
+}
+.IncompleteHead {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.content {
+  margin-left: 26px;
+  margin-top: -26px;
+}
+
+.IncompleteHead h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  color: #575767;
+}
+#custom-checkbox {
+  width: 24px;
+  height: 24px;
+  gap: 8px;
+  border-radius: 6px 0px 0px 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+}
+.incompleteTask {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.page-content .subContainer .task {
+  display: flex;
+  gap: 16px;
+}
+.incompleteTask h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  padding-left: 10px;
+  color: #575767;
+}
+.incompleteTask h5 {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: left;
+  color: #b9b9be;
+  padding-left: 10px;
+}
+.secondSubCon {
+  margin-top: 30px;
+}
+.secondSubCon h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  text-align: left;
+  color: #575767;
+  margin-bottom: 20px;
+}
+#checkboxComplete {
+  width: 20px;
+  height: 20px;
+  gap: 8px;
+  border-radius: 6px 0px 0px 0px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  margin-bottom: 20px;
+}
+
+.secondSubCon h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #b9b9be;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.custom-checkbox-wrapper {
+  width: 24px;
+  height: 24px;
+  margin-bottom: 0;
+  position: relative;
+  cursor: pointer;
+}
+.custom-checkbox-wrapper input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.custom-checkbox-wrapper .checkbox {
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../Images/unchecked.png");
+  background-size: 24px;
+}
+.custom-checkbox-wrapper input:checked ~ .checkbox {
+  background-image: url("../Images/checked.svg");
+}
+
+#msg {
+  color: red;
+}
+.notification-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1000;
+  display: none;
+}
+
+.notification-message {
+  font-size: 16px;
+  color: #333333;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: #999999;
+}
